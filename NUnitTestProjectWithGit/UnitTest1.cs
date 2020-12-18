@@ -16,5 +16,12 @@ namespace NUnitTestProjectWithGit
 
             Assert.Pass();
         }
+        [Test]
+        [Description("The second test in new branch feature/firstUser")]
+        public void Test2()
+        {
+
+            Assert.Pass();
+        }
     }
 }
